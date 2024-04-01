@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM tomcat:8-jre11
+RUN rm -rf /usr/local/tomcat/webapps/*
+COPY target/devops-cicd.war /usr/local/tomcat/webapps/devops-cicd.war
 EXPOSE 8080
-ADD target/devops-cicd.war devops-cicd.war
-ENTRYPOINT ["java","-jar","/devops-cicd.war"]
