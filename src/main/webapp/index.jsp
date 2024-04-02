@@ -1,7 +1,7 @@
 <html>
 <style>
 h2{
-color:red;
+color:blue;
 text-align:center;
 }
 </style>
