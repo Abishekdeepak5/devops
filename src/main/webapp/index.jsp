@@ -2,7 +2,6 @@
 <style>
 h2{
 color:blue;
-text-align:center;
 }
 </style>
 <body>
